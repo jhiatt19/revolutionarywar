@@ -14,3 +14,19 @@ img {
 header {
     justify-content: center;
 }
+
+nav ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
