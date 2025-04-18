@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+title {
+    display:none;
+}
+
 .image-container {
     width:100%;
     height: 50%;
