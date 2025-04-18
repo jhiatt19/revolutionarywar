@@ -5,6 +5,9 @@
     justify-content: center;
 }
 
+html {
+    background-color: beige;
+}
 title {
     display:none;
 }
@@ -12,6 +15,7 @@ title {
 .image-container {
     width:100%;
     height: 50%;
+    overflow: hidden;
     
 }
 
@@ -87,4 +91,12 @@ li a:hover {
     margin-right: 25%;
     width: 50%;
     align-items: start;
+}
+
+.homepage {
+    overflow: hidden;
+}
+
+.home {
+    width: 90%;
 }
