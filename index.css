@@ -1,15 +1,8 @@
 * {
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-}
-img {
-    width: 100%;
-    /* object-fit: none; */
-}
-
-.image-container {
-    width:100%;
-    /* overflow: hidden; */
+    justify-content: center;
 }
 
 .image-container-6nations {
@@ -23,6 +16,7 @@ header {
 
 nav ul {
     display:flex;
+    flex-direction: row;
     justify-content: space-around;
     list-style: none;
 }
@@ -42,4 +36,24 @@ body {
     display:flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+div {
+    display: flex;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+}
+
+h3 {
+    display:flex;
+}
+
+p {
+    display:flex;
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
