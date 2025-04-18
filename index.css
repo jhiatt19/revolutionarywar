@@ -55,6 +55,7 @@ nav a:hover {
 body {
     display:flex;
     flex-direction: column;
+    background-color: beige;
 }
 
 main {
