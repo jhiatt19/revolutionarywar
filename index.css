@@ -10,9 +10,16 @@
     height: 50%;
     
 }
+
+.image-container-miami {
+    width: 75%;
+    margin-left:12.5%;
+    margin-right:12.5%;
+}
+
 .image-container-6nations {
-    
     justify-content: center;
+    
 }
 
 header {
