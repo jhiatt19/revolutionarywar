@@ -5,6 +5,15 @@
     justify-content: center;
 }
 
+img {
+    width:100%;
+    height:700px;
+}
+
+.image-container {
+    width:100%;
+    
+}
 .image-container-6nations {
     
     justify-content: center;
@@ -36,10 +45,6 @@ body {
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-div {
-    display: flex;
 }
 
 main {
