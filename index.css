@@ -68,3 +68,23 @@ p {
     margin-left: 25%;
     margin-right: 25%;
 }
+
+li a {
+    text-decoration: none;
+    color:black;
+    margin-bottom: 1em;
+    align-items: left;
+}
+
+li a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+.sources {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    align-items: start;
+}
